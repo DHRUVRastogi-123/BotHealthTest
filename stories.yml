@@ -38,3 +38,7 @@ stories:
   - action: utter_tell_more
   - intent: only_one_symptom
   - action: utter_cure_headache
+
+- story: sore_throth
+  steps:
+  - intent: 

@@ -14,9 +14,13 @@ intents:
   - only_one_symptom:
       ignore_entities:
         - Headache
+  - tell_me_symptom_sore_throat:
+      use_entities:
+        - sore throat
 
 entities:
   - Headache
+  - sore throat
 
 responses:
   utter_cure_headache:

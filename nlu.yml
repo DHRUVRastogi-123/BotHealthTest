@@ -113,6 +113,19 @@ nlu:
     - What can I do about my severe [pain in head]{"entity":"Headache"}?
     - This [headpain]{"entity":"Headache"} is affecting my daily life.
 
+- intent: tell_me_symptom_sore_throat
+  examples: |
+    - I have a [sore throat]{"entity":"sore throat"}.
+    - My [throat]{"entity":"sore throat"} is really sore.
+    - Can you help with my [sore throat]{"entity":"sore throat"}?
+    - The [sore throat]{"entity":"sore throat"} is causing me discomfort.
+    - Is a [sore throat]{"entity":"sore throat"} a sign of illness?
+    - What can I do about my scratchy [throat]{"entity":"sore throat"}?
+    - The [throat]{"entity":"sore throat"} pain is making it hard to eat.
+    - How to soothe a [sore throat]{"entity":"sore throat"}
+    - I need advice for my [sore throat]{"entity":"sore throat"}.
+    
+
 - intent: only_one_symptom
   examples: |
     - I have only this problem.
@@ -153,3 +166,4 @@ nlu:
     - throbbing head
     - headache symptoms
     - head discomfort
+
