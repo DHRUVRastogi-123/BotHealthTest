@@ -38,3 +38,12 @@ stories:
   - action: utter_tell_more
   - intent: only_one_symptom
   - action: utter_cure_headache
+
+- story: I have only stomachache
+  steps:
+  - intent: tell_me_symptom_Stomachache
+    entities:
+    - Stomachache : "stomachache"
+  - action: utter_tell_more
+  - intent: only_one_symptom
+  - action: utter_cure_stomachache

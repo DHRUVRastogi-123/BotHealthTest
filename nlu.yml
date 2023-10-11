@@ -113,10 +113,35 @@ nlu:
     - What can I do about my severe [pain in head]{"entity":"Headache"}?
     - This [headpain]{"entity":"Headache"} is affecting my daily life.
 
+- intent: tell_me_symptom_Stomachache
+  examples: |
+    - I am having a [stomachache]{"entity":"Stomachache"}.
+    - My day started with a terrible [abdominal pain]{"entity":"Stomachache"}.
+    - I've got this pounding [nausea]{"entity":"Stomachache"} in my stomach.
+    - Lately, I've been experiencing a constant [stomach discomfort]{"entity":"Stomachache"}.
+    - Can you help me with my [upset stomach]{"entity":"Stomachache"}?
+    - My [stomachache]{"entity":"Stomachache"} is really bothering me.
+    - I need advice on dealing with this persistent [tummy ache]{"entity":"Stomachache"}.
+    - I can't concentrate because of this [stomach pain]{"entity":"Stomachache"}.
+    - How can I relieve my [stomach cramps]{"entity":"Stomachache"}?
+    - It feels like I've had this [stomach discomfort]{"entity":"Stomachache"} for days.
+    - My stomach is churning, and I suspect it's a [digestive issue]{"entity":"Stomachache"}.
+    - I'm looking for a remedy for my [bellyache]{"entity":"Stomachache"}.
+    - Do you have any suggestions for dealing with a sudden [stomachache]{"entity":"Stomachache"}?
+    - This [abdominal pain]{"entity":"Stomachache"} is unbearable.
+    - I woke up with a splitting [stomachache]{"entity":"Stomachache"}.
+    - My [stomachache]{"entity":"Stomachache"} just won't go away.
+    - How do I get rid of this persistent [ache in my stomach]{"entity":"Stomachache"}?
+    - I've tried everything to relieve my [tummy troubles]{"entity":"Stomachache"}.
+    - What can I do about my severe [pain in my stomach]{"entity":"Stomachache"}?
+    - This [belly pain]{"entity":"Stomachache"} is affecting my daily life.
+
+
 - intent: only_one_symptom
   examples: |
     - I have only this problem.
     - No
+    - no
     - I need advice only for this.
     - Just this issue.
     - This is my only concern.
@@ -153,3 +178,20 @@ nlu:
     - throbbing head
     - headache symptoms
     - head discomfort
+
+- synonym: Stomachache
+  examples: |
+    - stomachache
+    - abdominal pain
+    - stomach pain
+    - tummy ache
+    - bellyache
+    - upset stomach
+    - stomach discomfort
+    - stomach cramps
+    - digestive issue
+    - belly pain
+    - tummy troubles
+    - ache in my stomach
+
+
