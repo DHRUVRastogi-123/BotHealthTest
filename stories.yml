@@ -1,0 +1,66 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: current_events
+  steps:
+  - intent: current_events
+  - action: utter_events
+
+- story: user asks for Bot Rush information
+  steps:
+  - intent: event_information_Bot_Rush
+  - action: utter_Bot_Rush
+
+- story: user asks for Bot Rush Sub events
+  steps:
+  - intent: event_information_Bot_Rush_subevents
+  - action: utter_Bot_Rush_subevents
+
+- story: user asks for the registration link for Bot Rush
+  steps:
+  - intent: event_registration_Bot_Rush
+  - action: utter_Bot_Rush_Registration
+
+- story: user asks for the venue for Bot Rush
+  steps:
+  - intent: event_venue_Bot_Rush
+  - action: utter_Bot_Rush_venue
+
+- story: user asks for the contact details for Bot Rush
+  steps:
+  - intent: event_contact_details_Bot_Rush
+  - action: utter_Bot_Rush_contact_details
+
+- story: user asks for the image of Bot Rush
+  steps:
+  - intent: event_image_Bot_Rush
+  - action: utter_Bot_Rush_image
+

@@ -1,0 +1,7 @@
+- event_information_Meep_Mop
+  - event_information_Meep_Mop_subevents
+  - event_registration_Meep_Mop
+  - event_venue_Meep_Mop
+  - event_contact_details_Meep_Mop
+  - event_image_Meep_Mop
+  - event_organizer_Meep_Mop

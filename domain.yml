@@ -1,0 +1,94 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - current_events
+  - event_information_Bot_Rush
+  - event_information_Bot_Rush_subevents
+  - event_registration_Bot_Rush
+  - event_venue_Bot_Rush
+  - event_contact_details_Bot_Rush
+  - event_image_Bot_Rush
+  - event_organizer_Bot_Rush
+  - event_information_Bumble_See
+  - event_information_Bumble_See_subevents
+  - event_registration_Bumble_See
+  - event_venue_Bumble_See
+  - event_contact_details_Bumble_See
+  - event_image_Bumble_See
+  - event_organizer_Bumble_See
+  - event_information_Match_n_Engage
+  - event_information_Match_n_Engage_subevents
+  - event_registration_Match_n_Engage
+  - event_venue_Match_n_Engage
+  - event_contact_details_Match_n_Engage
+  - event_image_Match_n_Engage
+  - event_organizer_Match_n_Engage
+  - event_information_Decept_Of_Home
+  - event_information_Decept_Of_Home_subevents
+  - event_registration_Decept_Of_Home
+  - event_venue_Decept_Of_Home
+  - event_contact_details_Decept_Of_Home
+  - event_image_Decept_Of_Home
+  - event_organizer_Decept_Of_Home
+  - event_information_Meep_Mop
+  - event_information_Meep_Mop_subevents
+  - event_registration_Meep_Mop
+  - event_venue_Meep_Mop
+  - event_contact_details_Meep_Mop
+  - event_image_Meep_Mop
+  - event_organizer_Meep_Mop
+
+responses:
+  utter_Bot_Rush_organizer:
+  - text: "Bot Rush is being organized by Robotics Club MNNIT"
+
+  utter_Bot_Rush_image:
+  - text: "1. https://imgur.com/a/fU3qIO2 \n2. https://imgur.com/a/tNkiMXc"
+
+  utter_Bot_Rush_contact_details:
+  - text: "Internet : www.roboticsclub.mnnit.ac.in/\nFacebook : facebook.com/robotics.club.mnnit/\nInstagram : instagram.com/roboticsclubmnnit/\nLinkedln : linkedin.com/in/robotics-club-mnnit/"
+
+  utter_Bot_Rush_venue:
+  - text: "NLHC1 and NLHC2 for doubt discussions.\nMP Hall for Project submission and testing. \nTime: 6:00PM"
+
+  utter_Bot_Rush_Registration:
+  - text: "The registration link for the event is : \nhttps://drive.google.com/drive/folders/1-B5QmKnUUKRM2TFuu5AjUUsT_Gm-TnZh?usp=share_link\nRegister fast as last date of registration is 10/11/2023."
+
+  utter_Bot_Rush_subevents:
+  - text: "There are four activities that are going to take place in Bot Rush event.\nBumble See \nMatch n Engage \nMeep Mop \nDecept of Home \nDo you want to know about any one of these activities?"
+  
+  utter_Bot_Rush:
+  - text: "During \"Bot Rush,\" participating teams are challenged to design and build their own autonomous robots that can navigate through a predefined course, overcoming various obstacles and completing specific tasks. The event tests the participants' ability to program their robots effectively, making them perform various maneuvers and achieve the objectives within a stipulated time frame.\nThe event not only fosters teamwork and collaboration among the participants but also encourages them to think critically and come up with innovative solutions. It provides an excellent opportunity for the 1st-year students to get hands-on experience in robotics, enhancing their practical knowledge and understanding of engineering principles.\n\"Bot Rush\" is a thrilling and competitive event that sparks the students' interest in robotics and inspires them to explore further in the field. The Robotics club at MNNIT is dedicated to nurturing the talents of the future engineers, and \"Bot Rush\" is just one of the many initiatives taken by the club to promote technical excellence and creativity among the students.\nOverall, \"Bot Rush\" promises an exhilarating experience for the participants, where they can showcase their robot-building skills, learn from each other, and take their first steps towards becoming proficient engineers in the realm of robotics."
+  
+  utter_events:
+  - text: "The current events in the college are : \nBot Rush \nDo you want to know about any specific event?"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
