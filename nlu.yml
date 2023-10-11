@@ -124,7 +124,7 @@ nlu:
     - The [throat]{"entity":"sore throat"} pain is making it hard to eat.
     - How to soothe a [sore throat]{"entity":"sore throat"}
     - I need advice for my [sore throat]{"entity":"sore throat"}.
-    
+
 
 - intent: only_one_symptom
   examples: |
@@ -166,4 +166,23 @@ nlu:
     - throbbing head
     - headache symptoms
     - head discomfort
+
+- synonym: Sore Throat
+  examples: |
+    - sore throat
+    - throat pain
+    - throat discomfort
+    - painful throat
+    - scratchy throat
+    - hoarse throat
+    - throat ache
+    - throat soreness
+    - irritation in throat
+    - raw throat
+    - itchy throat
+    - difficulty swallowing
+    - throat infection
+    - throat inflammation
+    - throat irritation
+
 
