@@ -47,3 +47,13 @@ stories:
   - action: utter_tell_more
   - intent: only_one_symptom
   - action: utter_cure_stomachache
+
+- story: I have only fever
+  steps:
+  - intent: tell_me_symptom_Fever
+    entities:
+    - Fever : "fever"
+  - action: utter_tell_more
+  - intent: only_one_symptom
+  - action: utter_cure_fever
+
