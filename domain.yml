@@ -14,22 +14,73 @@ intents:
   - tell_me_symptom_Stomachache:
       use_entities:
         - Stomachache
+  - tell_me_symptom_Fever:
+      use_entities:
+        - Fever
   - only_one_symptom:
       ignore_entities:
         - Headache
         - Stomachache 
+        - Fever
   
 
 entities:
   - Headache
   - Stomachache
+  - Fever
 
 responses:
+  namaste:
+  - text: "Namaste Sir/Madam , how do you feel today?"
+
+  utter_cure_fever:
+  - text: |
+        Self-treatment: Self-care steps that may be helpful in some less-serious cases:
+        - Large volume of fluid intake
+        - Tepid sponging
+        - Switching on a fan
+        - Applying a damp cloth on the forehead
+
+        See a doctor if you notice:
+        - The fever has lasted for longer than 2-3 days
+        - An infant has a fever
+        - Fever of 103°F or higher in adults
+        - Other mild to moderate symptoms
+
+        See a doctor immediately if you notice:
+        - Feelings of disorientation or confusion
+        - A rash has appeared and is spreading
+        - Chest pain or breathing difficulties
+        - Continuous vomiting
+
+  
   utter_cure_headache:
-  - text: "Self-treatment: Self- care steps that may be helpful in some less- serious cases:\nResting in a dark, quite room\nOver- the- counter medications such as ibuprofen, acetaminophen or aspirin\nSee a doctor if you notice:\nThat it recurs often\nDisturbance of sleep and routine activities\nThat it does not improve with rest\nIt lasts longer than 24 hours"
+  - text: |
+        Self-treatment: Self-care steps that may be helpful in some less-serious cases:
+        - Resting in a dark, quiet room
+        - Over-the-counter medications such as ibuprofen, acetaminophen, or aspirin
+
+        See a doctor if you notice:
+        - That it recurs often
+        - Disturbance of sleep and routine activities
+        - That it does not improve with rest
+        - It lasts longer than 24 hours
 
   utter_cure_stomachache:
-  - text: "Self-treatment: Self- care steps that may be helpful in some less- serious cases:\n Avoid spicy or oily foods that worsen the cramping \nAvoid overeating\nApply a heat pad to the stomach to ease the pain\nStomach massage especially in children\nTake medications e.g. gas relievers, antacids, laxative, antibiotic, anti- diarrheal\nSee a doctor if you notice:\nSudden pain\nPain lasts longer than a day\nBloody stool or vomit\nAn inability to eat or drink\nUnintentional weight loss"
+  - text: |
+        Self-treatment: Self-care steps that may be helpful in some less-serious cases:
+        - Avoid spicy or oily foods that worsen the cramping
+        - Avoid overeating
+        - Apply a heat pad to the stomach to ease the pain
+        - Stomach massage, especially in children
+        - Take medications (e.g., gas relievers, antacids, laxatives, antibiotics, anti-diarrheals)
+
+        See a doctor if you notice:
+        - Sudden pain
+        - Pain lasts longer than a day
+        - Bloody stool or vomit
+        - An inability to eat or drink
+        - Unintentional weight loss
 
   utter_tell_more:
   - text: "Are you feeling any other symptoms?"
