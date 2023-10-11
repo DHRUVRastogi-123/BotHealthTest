@@ -1,0 +1,155 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: tell_me_symptom_Headache
+  examples: |
+    - I am having an [headache]{"entity":"Headache"}.
+    - My day started with a terrible [headache]{"entity":"Headache"}.
+    - I've got this pounding [nausea]{"entity":"Headache"}.
+    - Lately, I've been experiencing a constant [head discomfort]{"entity":"Headache"}.
+    - Can you help me with my [headache]{"entity":"Headache"}?
+    - My [headache]{"entity":"Headache"} is really bothering me.
+    - I need advice on dealing with this persistent [headache]{"entity":"Headache"}.
+    - I can't concentrate because of this [headache]{"entity":"Headache"}.
+    - How can I relieve my [dizziness]{"entity":"Headache"}?
+    - It feels like I've had this [stress in head]{"entity":"Headache"} for days.
+    - My head is pounding, and I suspect it's a [migraine]{"entity":"Headache"}.
+    - I'm looking for a remedy for my [headache]{"entity":"Headache"}.
+    - Do you have any suggestions for dealing with a sudden [headache]{"entity":"Headache"}?
+    - This [throbbing head]{"entity":"Headache"} is unbearable.
+    - I woke up with a splitting [headache]{"entity":"Headache"}.
+    - My [headache]{"entity":"Headache"} just won't go away.
+    - How do I get rid of this persistent [ache in head]{"entity":"Headache"}?
+    - I've tried everything to relieve my [tension]{"entity":"Headache"}.
+    - What can I do about my severe [pain in head]{"entity":"Headache"}?
+    - This [headpain]{"entity":"Headache"} is affecting my daily life.
+
+- intent: only_one_symptom
+  examples: |
+    - I have only this problem.
+    - No
+    - I need advice only for this.
+    - Just this issue.
+    - This is my only concern.
+    - I'm focusing on this one.
+    - Only one symptom to discuss.
+    - Let's talk about this alone.
+    - Singular issue.
+    - I'm here for just this.
+    - I'm only interested in this.
+    - Sole problem.
+    - It's just about this.
+    - I want to address this issue only.
+    - No other concerns.
+    - This is my sole complaint.
+    - Just this one thing.
+    - I'm here for one reason.
+    - I have just this symptom.
+    - I need help with this specific issue.
+
+- synonym: Headache
+  examples: |
+    - headache
+    - pain in head
+    - nausea
+    - dizziness
+    - tension
+    - ache in head
+    - headpain
+    - stress
+    - stress in head
+    - head pain
+    - migraine
+    - tension headache
+    - throbbing head
+    - headache symptoms
+    - head discomfort
