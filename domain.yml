@@ -11,16 +11,28 @@ intents:
   - tell_me_symptom_Headache:
       use_entities:
         - Headache
-  - only_one_symptom:
-      ignore_entities:
-        - Headache
+  - tell_me_symptom_Stomachache:
+      use_entities:
+        - Stomachache
+  - tell_me_symptom_Fever:
+      use_entities:
+        - Fever
   - tell_me_symptom_sore_throat:
       use_entities:
         - sore throat
+  - only_one_symptom:
+      ignore_entities:
+        - Headache
+        - Stomachache 
+        - Fever
+        - sore throat
 
-entities:
+  entities:
   - Headache
   - sore throat
+  - Stomachache 
+  - Fever
+
 
 responses:
   utter_cure_headache:
@@ -29,6 +41,10 @@ responses:
   utter_tell_more:
   - text: "Are you feeling any other symptoms?"
 
+  utter_cure_sore_throat:
+   - text: "If your sore throat persists and you or your child experience any of the following severe signs and symptoms, it's important to see a doctor for a proper evaluation and treatment:\n\n- Difficulty breathing\n- Difficulty swallowing\n- Unusual drooling, which might indicate an inability to swallow\n- A sore throat that is severe or lasts longer than a week\n- Difficulty opening your mouth\n- Joint pain\n- Earache\n- Rash\n- Fever higher than 101 F (38.3 C)\n- Blood in your saliva or phlegm\n- Frequently recurring sore throats\n- A lump in your neck\n- Hoarseness lasting more than two weeks\n- Swelling in your neck or face"
+
+  
   utter_greet:
   - text: "Hey! How are you?"
 
@@ -47,6 +63,59 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+   namaste:
+  - text: "Namaste Sir/Madam , how do you feel today?"
+
+  utter_cure_fever:
+  - text: |
+        Self-treatment: Self-care steps that may be helpful in some less-serious cases:
+        - Large volume of fluid intake
+        - Tepid sponging
+        - Switching on a fan
+        - Applying a damp cloth on the forehead
+
+        See a doctor if you notice:
+        - The fever has lasted for longer than 2-3 days
+        - An infant has a fever
+        - Fever of 103°F or higher in adults
+        - Other mild to moderate symptoms
+
+        See a doctor immediately if you notice:
+        - Feelings of disorientation or confusion
+        - A rash has appeared and is spreading
+        - Chest pain or breathing difficulties
+        - Continuous vomiting
+
+  
+  utter_cure_headache:
+  - text: |
+        Self-treatment: Self-care steps that may be helpful in some less-serious cases:
+        - Resting in a dark, quiet room
+        - Over-the-counter medications such as ibuprofen, acetaminophen, or aspirin
+
+        See a doctor if you notice:
+        - That it recurs often
+        - Disturbance of sleep and routine activities
+        - That it does not improve with rest
+        - It lasts longer than 24 hours
+
+  utter_cure_stomachache:
+  - text: |
+        Self-treatment: Self-care steps that may be helpful in some less-serious cases:
+        - Avoid spicy or oily foods that worsen the cramping
+        - Avoid overeating
+        - Apply a heat pad to the stomach to ease the pain
+        - Stomach massage, especially in children
+        - Take medications (e.g., gas relievers, antacids, laxatives, antibiotics, anti-diarrheals)
+
+        See a doctor if you notice:
+        - Sudden pain
+        - Pain lasts longer than a day
+        - Bloody stool or vomit
+        - An inability to eat or drink
+        - Unintentional weight loss
+
 
 session_config:
   session_expiration_time: 60
