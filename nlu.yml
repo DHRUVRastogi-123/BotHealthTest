@@ -142,6 +142,51 @@ nlu:
     - Tell me more about the symptoms that accompany a [sore throat]{"entity":"sore throat"}.
     - I need advice for my [throat irritation]{"entity":"sore throat"}.
 
+- intent: tell_me_symptom_Stomachache
+  examples: |
+    - I am having a [stomachache]{"entity":"Stomachache"}.
+    - My day started with a terrible [abdominal pain]{"entity":"Stomachache"}.
+    - I've got this pounding [nausea]{"entity":"Stomachache"} in my stomach.
+    - Lately, I've been experiencing a constant [stomach discomfort]{"entity":"Stomachache"}.
+    - Can you help me with my [upset stomach]{"entity":"Stomachache"}?
+    - My [stomachache]{"entity":"Stomachache"} is really bothering me.
+    - I need advice on dealing with this persistent [tummy ache]{"entity":"Stomachache"}.
+    - I can't concentrate because of this [stomach pain]{"entity":"Stomachache"}.
+    - How can I relieve my [stomach cramps]{"entity":"Stomachache"}?
+    - It feels like I've had this [stomach discomfort]{"entity":"Stomachache"} for days.
+    - My stomach is churning, and I suspect it's a [digestive issue]{"entity":"Stomachache"}.
+    - I'm looking for a remedy for my [bellyache]{"entity":"Stomachache"}.
+    - Do you have any suggestions for dealing with a sudden [stomachache]{"entity":"Stomachache"}?
+    - This [abdominal pain]{"entity":"Stomachache"} is unbearable.
+    - I woke up with a splitting [stomachache]{"entity":"Stomachache"}.
+    - My [stomachache]{"entity":"Stomachache"} just won't go away.
+    - How do I get rid of this persistent [ache in my stomach]{"entity":"Stomachache"}?
+    - I've tried everything to relieve my [tummy troubles]{"entity":"Stomachache"}.
+    - What can I do about my severe [pain in my stomach]{"entity":"Stomachache"}?
+    - This [belly pain]{"entity":"Stomachache"} is affecting my daily life.
+
+- intent: tell_me_symptom_Fever
+  examples: |
+    - I'm experiencing [fever]{"entity":"Fever"}.
+    - My body temperature is elevated, and I suspect I have [a fever]{"entity":"Fever"}.
+    - I feel really [feverish]{"entity":"Fever"}.
+    - Lately, I've been having [fever symptoms]{"entity":"Fever"}.
+    - Can you help me with my [high body temperature]{"entity":"Fever"}?
+    - I'm running [a fever]{"entity":"Fever"}, and it's making me uncomfortable.
+    - I need advice on dealing with this persistent [fever]{"entity":"Fever"}.
+    - My [fever]{"entity":"Fever"} is causing me distress.
+    - I have [fever signs]{"entity":"Fever"}.
+    - How can I relieve my [feverish state]{"entity":"Fever"}?
+    - It feels like I've had this [raised body temperature]{"entity":"Fever"} for days.
+    - I'm looking for remedies for my [feverish condition]{"entity":"Fever"}.
+    - Do you have any suggestions for dealing with a sudden [fever]{"entity":"Fever"}?
+    - This [feverish state]{"entity":"Fever"} is unbearable.
+    - My body temperature is high, and I suspect it's [a fever]{"entity":"Fever"}.
+    - My [fever]{"entity":"Fever"} just won't go away.
+    - How do I get rid of this persistent [feverish state]{"entity":"Fever"}?
+    - I've tried everything to relieve my [fever symptoms]{"entity":"Fever"}.
+    - What can I do about my [running a fever]{"entity":"Fever"}?
+
 
 
 - intent: only_one_symptom
@@ -202,5 +247,39 @@ nlu:
     - throat infection
     - throat inflammation
     - throat irritation
+
+ - synonym: Stomachache
+  examples: |
+    - stomachache
+    - abdominal pain
+    - stomach pain
+    - tummy ache
+    - bellyache
+    - upset stomach
+    - stomach discomfort
+    - stomach cramps
+    - digestive issue
+    - belly pain
+    - tummy troubles
+    - ache in my stomach
+
+- synonym: Fever
+  examples: |
+    - fever
+    - high temperature
+    - body temperature
+    - feverish
+    - fever symptoms
+    - feverish condition
+    - raised body temperature
+    - feverish state
+    - having a fever
+    - temperature is high
+    - fever signs
+    - fever indicators
+    - running a fever
+    - feverish symptoms
+    - feverish state
+
 
 
