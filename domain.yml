@@ -26,8 +26,8 @@ intents:
         - Stomachache 
         - Fever
         - sore throat
-
-  entities:
+ 
+entities:
   - Headache
   - sore throat
   - Stomachache 
@@ -35,39 +35,39 @@ intents:
 
 
 responses:
-  utter_cure_headache:
+utter_cure_headache:
   - text: "Self-treatment: Self- care steps that may be helpful in some less- serious cases:\nResting in a dark, quite room\nOver- the- counter medications such as ibuprofen, acetaminophen or aspirin\nSee a doctor if you notice:\nThat it recurs often\nDisturbance of sleep and routine activities\nThat it does not improve with rest\nIt lasts longer than 24 hours"
 
-  utter_tell_more:
+utter_tell_more:
   - text: "Are you feeling any other symptoms?"
 
-  utter_cure_sore_throat:
+utter_cure_sore_throat:
    - text: "If your sore throat persists and you or your child experience any of the following severe signs and symptoms, it's important to see a doctor for a proper evaluation and treatment:\n\n- Difficulty breathing\n- Difficulty swallowing\n- Unusual drooling, which might indicate an inability to swallow\n- A sore throat that is severe or lasts longer than a week\n- Difficulty opening your mouth\n- Joint pain\n- Earache\n- Rash\n- Fever higher than 101 F (38.3 C)\n- Blood in your saliva or phlegm\n- Frequently recurring sore throats\n- A lump in your neck\n- Hoarseness lasting more than two weeks\n- Swelling in your neck or face"
 
   
-  utter_greet:
+utter_greet:
   - text: "Hey! How are you?"
 
-  utter_cheer_up:
+utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
+utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
+utter_happy:
   - text: "Great, carry on!"
 
-  utter_goodbye:
+utter_goodbye:
   - text: "Bye"
 
-  utter_iamabot:
+utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-   namaste:
+namaste:
   - text: "Namaste Sir/Madam , how do you feel today?"
 
-  utter_cure_fever:
+utter_cure_fever:
   - text: |
         Self-treatment: Self-care steps that may be helpful in some less-serious cases:
         - Large volume of fluid intake
@@ -87,9 +87,8 @@ responses:
         - Chest pain or breathing difficulties
         - Continuous vomiting
 
-  
-  utter_cure_headache:
-  - text: |
+    utter_cure_headache:
+    - text: |
         Self-treatment: Self-care steps that may be helpful in some less-serious cases:
         - Resting in a dark, quiet room
         - Over-the-counter medications such as ibuprofen, acetaminophen, or aspirin
@@ -100,7 +99,7 @@ responses:
         - That it does not improve with rest
         - It lasts longer than 24 hours
 
-  utter_cure_stomachache:
+utter_cure_stomachache:
   - text: |
         Self-treatment: Self-care steps that may be helpful in some less-serious cases:
         - Avoid spicy or oily foods that worsen the cramping
