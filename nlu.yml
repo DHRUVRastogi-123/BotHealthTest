@@ -158,6 +158,18 @@ nlu:
     - I've tried everything to relieve my [fever symptoms]{"entity":"Fever"}.
     - What can I do about my [running a fever]{"entity":"Fever"}?
 
+- intent: tell_me_symptom_sore_throat
+  examples: |
+    - I have a [sore throat]{"entity":"sore throat"}.
+    - My [throat]{"entity":"sore throat"} is really sore.
+    - Can you help with my [sore throat]{"entity":"sore throat"}?
+    - The [sore throat]{"entity":"sore throat"} is causing me discomfort.
+    - Is a [sore throat]{"entity":"sore throat"} a sign of illness?
+    - What can I do about my scratchy [throat]{"entity":"sore throat"}?
+    - The [throat]{"entity":"sore throat"} pain is making it hard to eat.
+    - How to soothe a [sore throat]{"entity":"sore throat"}
+    - I need advice for my [sore throat]{"entity":"sore throat"}.
+
 - intent: only_one_symptom
   examples: |
     - I have only this problem.
@@ -233,5 +245,21 @@ nlu:
     - feverish symptoms
     - feverish state
 
-
+- synonym: Sore Throat
+  examples: |
+    - sore throat
+    - throat pain
+    - throat discomfort
+    - painful throat
+    - scratchy throat
+    - hoarse throat
+    - throat ache
+    - throat soreness
+    - irritation in throat
+    - raw throat
+    - itchy throat
+    - difficulty swallowing
+    - throat infection
+    - throat inflammation
+    - throat irritation
 
