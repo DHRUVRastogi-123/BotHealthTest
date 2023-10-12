@@ -17,17 +17,22 @@ intents:
   - tell_me_symptom_Fever:
       use_entities:
         - Fever
+  - tell_me_symptom_sore_throat:
+      use_entities:
+        - sore throat
   - only_one_symptom:
       ignore_entities:
         - Headache
         - Stomachache 
         - Fever
+        - sore throat
   
 
 entities:
   - Headache
   - Stomachache
   - Fever
+  - sore throat
 
 responses:
   namaste:
