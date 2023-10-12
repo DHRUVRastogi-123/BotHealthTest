@@ -122,8 +122,26 @@ nlu:
     - Is a [sore throat]{"entity":"sore throat"} a sign of illness?
     - What can I do about my scratchy [throat]{"entity":"sore throat"}?
     - The [throat]{"entity":"sore throat"} pain is making it hard to eat.
-    - How to soothe a [sore throat]{"entity":"sore throat"}
-    - I need advice for my [sore throat]{"entity":"sore throat"}.
+    - How to soothe a [throat ache]{"entity":"sore throat"}
+    - I have a [sore throat]{"entity":"sore throat"}.
+    - My [throat]{"entity":"sore throat"} is really [sore]{"entity":"sore throat"}.
+    - Can you help with my [sore throat]{"entity":"sore throat"}?
+    - The [sore throat]{"entity":"sore throat"} is causing me [discomfort]{"entity":"sore throat"}.
+    - Is a [throat irritation]{"entity":"sore throat"} a sign of [illness]{"entity":"sore throat"}?
+    - What can I do about my [scratchy throat]{"entity":"sore throat"}?
+    - The [throat]{"entity":"sore throat"} [pain]{"entity":"sore throat"} is making it hard to eat.
+    - How to soothe a [sore throat]{"entity":"sore throat"}.
+    - I need advice for my [throat ache]{"entity":"sore throat"}.
+    - I'm experiencing a [painful throat]{"entity":"sore throat"}.
+    - What are the common causes of a [sore throat]{"entity":"sore throat"}?
+    - How long does a typical [sore throat]{"entity":"sore throat"} last?
+    - Can you recommend any home remedies for a [sore throat]{"entity":"sore throat"}?
+    - Is it contagious if I have a [throat irritation]{"entity":"sore throat"}?
+    - Should I see a doctor for my [sore throat]{"entity":"sore throat"}?
+    - What foods or drinks should I avoid with a [sore throat]{"entity":"sore throat"}?
+    - Tell me more about the symptoms that accompany a [sore throat]{"entity":"sore throat"}.
+    - I need advice for my [throat irritation]{"entity":"sore throat"}.
+
 
 
 - intent: only_one_symptom
