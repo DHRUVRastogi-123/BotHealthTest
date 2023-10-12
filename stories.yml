@@ -39,3 +39,11 @@ stories:
   - intent: only_one_symptom
   - action: utter_cure_headache
 
+- story: I have only fever
+  steps:
+  - intent: tell_me_symptom_sore_throat
+    entities:
+    - sore throat : "sore throat"
+  - action: utter_tell_more
+  - intent: only_one_symptom
+  - action: utter_cure_sore_throat
